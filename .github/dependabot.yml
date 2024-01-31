@@ -86,7 +86,7 @@ updates:
       prefix: 'chore'
       include: 'scope'
     schedule:
-      interval: weekly
+      interval: daily
       day: sunday
       time: '22:00'
     labels:
