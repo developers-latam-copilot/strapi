@@ -172,7 +172,7 @@ const createYupSchema = (
         } else if (attribute.required && !options.isDraft) {
           dynamicZoneSchema = dynamicZoneSchema.test('required', errorsTrads.required, (value) => {
             if (options.isCreatingEntry) {
-              return value !== null || value !== undefined;
+              return value !== null ;
             }
 
             if (value === undefined) {
