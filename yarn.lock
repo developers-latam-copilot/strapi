@@ -8362,7 +8362,7 @@ __metadata:
     koa-static: "npm:^5.0.0"
     lodash: "npm:4.17.21"
     msw: "npm:1.3.0"
-    path-to-regexp: "npm:6.2.1"
+    path-to-regexp: "npm:8.0.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-helmet: "npm:^6.1.0"
@@ -25290,10 +25290,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-to-regexp@npm:6.2.1, path-to-regexp@npm:^6.1.0, path-to-regexp@npm:^6.2.0":
-  version: 6.2.1
-  resolution: "path-to-regexp@npm:6.2.1"
-  checksum: 1e266be712d1a08086ee77beab12a1804842ec635dfed44f9ee1ba960a0e01cec8063fb8c92561115cdc0ce73158cdc7766e353ffa039340b4a85b370084c4d4
+"path-to-regexp@npm:8.0.0":
+  version: 8.0.0
+  resolution: "path-to-regexp@npm:8.0.0"
+  checksum: 64a5f946044475ee58c7e3f0875bc9fb3b758d9a5e8707a1dc3e053d8b11a3d20b5322490b3cd580644c226991115c1d10ce69143d2c76dcd3fed637834b8ee5
   languageName: node
   linkType: hard
 
@@ -25303,6 +25303,13 @@ __metadata:
   dependencies:
     isarray: "npm:0.0.1"
   checksum: 45a01690f72919163cf89714e31a285937b14ad54c53734c826363fcf7beba9d9d0f2de802b4986b1264374562d6a3398a2e5289753a764e3a256494f1e52add
+  languageName: node
+  linkType: hard
+
+"path-to-regexp@npm:^6.1.0, path-to-regexp@npm:^6.2.0":
+  version: 6.2.1
+  resolution: "path-to-regexp@npm:6.2.1"
+  checksum: 1e266be712d1a08086ee77beab12a1804842ec635dfed44f9ee1ba960a0e01cec8063fb8c92561115cdc0ce73158cdc7766e353ffa039340b4a85b370084c4d4
   languageName: node
   linkType: hard
 
